@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 11, 2017, 6:27:44 PM
+    Author     : dhaval
+*/
+
+header{background-color: #825dc3;}
+#cssmenu ul ul li {background: #825dc3;}
+#cssmenu > ul > li.active {background: #825dc3; }
+#cssmenu > ul > li.active:hover {background: #825dc3; }
+#cssmenu > ul > li:hover{background: #825dc3;}
+footer{background: #825dc3;}
+#scrollUp{background: #333333;}
+
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+    #cssmenu {
+        background-color: #825dc3;
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9068d6), color-stop(85%, #9068d6), to(#644699));
+        background-image: -webkit-linear-gradient(#9068d6, #9068d6 85%, #644699);
+        background-image: -moz-linear-gradient(top, #9068d6, #9068d6 85%, #644699);
+        background-image: -o-linear-gradient(#9068d6, #9068d6 85%, #644699);
+        background-image: linear-gradient(#9068d6, #9068d6 85%, #644699);
+    }
+}
+
+.btn-lbs{color: #fff;background-color:#a084d2;border-color:#a084d2;}
+.btn-lbs.active, .btn-lbs.focus, .btn-lbs:active, .btn-lbs:focus, .btn-lbs:hover{color: #fff;background-color:#825dc3;border-color:#825dc3;}
+
+/*loading div with overlay start*/
+#loading-overlay {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    left: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    background-color: #000;
+    z-index: 999;
+    opacity: 0.5;
+}
+.loading-icon{ position:absolute;border-top:2px solid #fff;border-right:2px solid #fff;border-bottom:2px solid #fff;border-left:2px solid #767676;border-radius:25px;width:25px;height:25px;margin:0 auto;position:absolute;left:50%;margin-left:-20px;top:50%;margin-top:-20px;z-index:4;-webkit-animation:spin 1s linear infinite;-moz-animation:spin 1s linear infinite;animation:spin 1s linear infinite;}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+/*loading div with overlay end*/
+
+/*chat start*/
+.chat-scroll{height: 500px; overflow-y: auto;}
+
+.messages-list li .chat-img-client{
+    position: absolute;
+    top: 0px;
+    width: 48px; height: 48px;
+}
+.messages-list li.out-msg .chat-img-client{
+    right: -80px;
+}
+
+.messages-list li.in-msg .chat-img-client{
+    left: -80px;
+}
+/*chat end*/
+
+/*table css */
+.table-custome{color:#000;}
+.table-head{background-color:#1a1a1a;}
+.table-head th{color:#fff; font-size:16px;}
+.table-head th a{color:#fff; font-size:16px;}
+.table-custome th, .table-custome td{padding:11px !important;}
+.table-custome td{ font-size:14px;}
+.table-custome td a{color:#3860db;}
+/*table css end*/
+
+.required-sign:before{ 
+    content:'*'; 
+    color: #ff0000; 
+    padding-right:2px;
+}
+
+.widget{float:left; width:100%;}
+.widget-body{width:100%; float:left;}
+
+.credit-header{font-size: 18px;font-weight: bold;}
+iframe{max-width: 100%}
+
+.disabled {opacity: 0.4;pointer-events: none;}
+
+.blink_me {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.5; }
+}

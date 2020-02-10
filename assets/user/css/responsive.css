@@ -1,0 +1,37 @@
+@media screen and (min-width : 0px) and (max-width : 639px)
+{
+.custome-checkbox label{width:100%;}
+
+}
+
+@media screen and (min-width : 640px) and (max-width : 1024px)
+{
+.custome-checkbox label{width:32%;}	
+}
+
+@media screen and (min-width : 0px) and (max-width : 479px)
+{
+.widget .widget-header .title{font-size:18px; width:100%; line-height:normal; }
+.add-property-link{font-size:13px; float:left; line-height: normal;}
+.add-property-link i{font-size:14px; padding-top:8px;}
+
+.widget .widget-header{float:left; height:auto; width:100%; padding-top:10px; padding-bottom:10px;}
+.checkbox label, .radio label{width:100%;}
+ul#mini-nav .dropdown-menu{min-width:290px;}
+.checkbox-inline + .checkbox-inline, .radio-inline + .radio-inline{margin-left:0px;}
+}
+
+
+@media screen and (min-width : 480px) and (max-width : 640px)
+{
+.checkbox label, .radio label{width:49%;}
+	
+}
+
+@media screen and (min-width : 0px) and (max-width : 767px)
+{
+.sub-nav{float:left; height:auto; width:100%; border-radius:0px; border-top:solid 1px #6c37c8; padding-bottom:5px; padding-top:5px;}	
+.sub-nav li{margin-top:5px; margin-bottom:5px;}
+.custom-search-btn{margin-left:0px; margin-right:5px; margin-top:15px;}
+.custom-reset-btn{margin-left:0px;  margin-right:5px; margin-top:15px;}
+}
